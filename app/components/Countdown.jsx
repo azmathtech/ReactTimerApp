@@ -1,13 +1,16 @@
 var React = require('react');
-var {Link} = require('react-router');
+var Clock = require('Clock');
+//var {Link} = require('react-router');
 
 
 var Countdown = (props) => {
-  return (
-    <div>
-      <p>Countdown.jsx</p>
-    </div>
-  );
+    return (
+      <div>
+        <Clock totalSeconds={129}/>
+      </div>
+    );
+  
+
 };
 
 module.exports = Countdown;
